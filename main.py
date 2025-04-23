@@ -19,3 +19,6 @@ async def receive_user_info(user: UserInfo):
 @app.get("/users")
 async def get_users():
     return users
+
+chmod +x start.sh
+
